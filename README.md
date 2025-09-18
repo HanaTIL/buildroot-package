@@ -1,4 +1,4 @@
-Buildroot Project with Custom Packages (edgelab, edgelab-hellolib)
+**Buildroot Project with Custom Packages**
 
 This is a demo repository that provides a Buildroot setup with two custom packages:
 
