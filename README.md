@@ -31,7 +31,7 @@ menu "Miscellaneous"
     source "package/edgelab-hellolib/Config.in"
 endmenu
 
-2. Enable Package in Buildroot
+3. Enable Package in Buildroot
 
 Run menuconfig:
 
@@ -42,20 +42,22 @@ make menuconfig
 Go to:
 
 Target packages  --->
+
     Miscellaneous  --->
+    
         [*] edgelab-hellolib
 
 
 Save and exit.
 
-3. Build the Image
+4. Build the Image
 
 Use the provided script to build the project:
 
 ./scripts/build.sh /path/to/buildroot
 
 
-4. Run in QEMU
+5. Run in QEMU
 
 Once the image is built, you can test it in QEMU:
 
