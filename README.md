@@ -68,8 +68,6 @@ Once the image is built, you can test it in QEMU:
 
 Once your Buildroot image is running:
 
-Login to the shell.
-
 Run the edgelab program:
 
 hello
