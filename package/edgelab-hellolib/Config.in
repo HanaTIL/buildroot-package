@@ -1,0 +1,4 @@
+config BR2_PACKAGE_EDGELAB_HELLOLIB
+    bool "edgelab-hellolib"
+    help
+      Hellolib shared library example

@@ -1,0 +1,5 @@
+config BR2_PACKAGE_EDGELAB
+    bool "techleef"
+    depends on BR2_PACKAGE_EDGELAB_HELLOLIB
+    help
+      This is a hello world demo dependent on shared library
